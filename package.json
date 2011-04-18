@@ -1,0 +1,24 @@
+{
+  "name": "node-logger",
+  "version": "0.1",
+  "description": "Forked from node-logger https://github.com/igo/node-logger.  node-logger is a Node.js logging library that prints module name, current line number and also your messages :) Furthermore it gives you an option to print messages in color",
+  "keywords": [ "logging", "log", "node", "line number", "color" ],
+  "main": "./index.js",
+  "author": "Igor Urmin?ek <https://github.com/igo>",
+  "contributors": [ {
+      "name": "Danny Siu",
+      "email": "danny.siu@gmail.com",
+      "web": "http://dsiu.org"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/dsiu/node-logger.git"
+    }
+  ],
+  "homepage": "https://github.com/dsiu/node-logger",
+  "engines": [ "node >=0.1.100" ],
+  "directories": { "test": "test", "lib": "lib" },
+  "devDependencies": {}
+}
