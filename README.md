@@ -8,7 +8,7 @@ Usage
 -----
 Download and add to your code:
 
-	var logger = require('node-logger').logger(module [, useColor]);
+	var logger = require('node-logger').logger(module [, useColor, [, useLineNumber]]);
 
 *module* is object defined automatically by nodejs. Don't bother with it, just always type *module*.
 
@@ -26,7 +26,10 @@ To print messages in color init logger with useColor set to true:
 
 	var logger = require('node-logger').logger(module, true);
 
-	
+To print message without line number, init logger with useLineNumber set to false:
+
+	var logger = require('node-logger').logger(module, true, false);
+
 Output samples
 --------------
 

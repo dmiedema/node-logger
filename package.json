@@ -1,6 +1,6 @@
 {
   "name": "node-logger",
-  "version": "0.1",
+  "version": "0.2",
   "description": "Forked from node-logger https://github.com/igo/node-logger.  node-logger is a Node.js logging library that prints module name, current line number and also your messages :) Furthermore it gives you an option to print messages in color",
   "keywords": [ "logging", "log", "node", "line number", "color" ],
   "main": "./index.js",
